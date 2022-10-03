@@ -7,6 +7,47 @@
 
 body {
     overflow: hidden;
+    position: relative;
+}
+
+.yourName {
+    position: absolute;
+    background-color: transparent;
+    top: 150px;
+    left: 20%;
+    border-radius: 3px;
+    color: whitesmoke;
+    border: 2px solid whitesmoke;
+    font-size: 22px;
+    width: 45%;
+    height: 5%;
+    padding: 20px 20px;
+}
+
+.yourName:focus {
+    outline: none;
+}
+
+.btn {
+    padding: 12px 19px;
+    position: absolute;
+    top: 147px;
+    left: 67%;
+    background-color: transparent;
+    color: whitesmoke;
+    border: 2px solid whitesmoke;
+    font-size: 16px;
+    font-weight: bold;
+    border-radius: 5px; 
+    cursor: pointer;
+}
+
+.btn:focus {
+    outline: none;
+}
+.btn:hover {
+    color: black;
+    background-color: whitesmoke;
 }
 
 .container {
